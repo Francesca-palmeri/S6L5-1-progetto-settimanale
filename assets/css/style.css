@@ -1,20 +1,30 @@
-.comportamentoHov{
-    opacity: 0.75;
+.comportamentoHov {
+  opacity: 0.75;
 }
 
-
-.comportamentoHov:hover{
-    opacity: 1;
-
+.comportamentoHov:hover {
+  opacity: 1;
 }
 
-.custom-input{
-    background-color: #6C757D;
-    width: 200px;
+.custom-input {
+  background-color: #6c757d;
+  width: 200px;
 }
 
+.custom-input:focus {
+  background-color: white;
+  outline: none;
+}
 
-.custom-input:focus{
-    background-color: white;
-     outline:none;
+.custom-hovre {
+  background-color: transparent; /* Colore di sfondo iniziale */
+  color: #6F7173; /* Colore del testo iniziale */
+  border: 2px solid #6F7173; /* Colore del bordo iniziale */
+}
+
+.custom-hover:hover {
+  background-color: transparent;  /* Colore di sfondo in hover */
+  color: #fff; /* Colore del testo in hover */
+  border-color:#6F7173; /* Colore del bordo in hover */
+  transition: border-color 0.3s ease, background-color 0.3s ease; /* Effetto di transizione */
 }
